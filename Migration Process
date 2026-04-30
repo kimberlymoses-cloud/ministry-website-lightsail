@@ -1,0 +1,24 @@
+
+## Migration Process
+1. **Assessed legacy site**: Analyzed 252MB .NET backup with .cshtml, .aspx, .xml files
+2. **Decision**: Start fresh vs migrate - chose fresh build to avoid technical debt
+3. **Deployment**: Launched Bitnami WordPress Lightsail instance, us-west-2
+4. **Configuration**: 
+   - Set static IP: 54.201.39.99
+   - Installed SSL via bncert-tool
+   - Configured DNS A records
+5. **Content**: Rebuilt pages, uploaded media, configured themes/plugins
+6. **Cleanup**: Removed legacy files, optimized for performance
+
+## Challenges Solved
+- **Problem**: Legacy .NET site couldn't be auto-migrated to WordPress
+- **Solution**: Audited files, identified MP3/PDF assets, rebuilt site architecture
+- **Problem**: WordPress file upload limits for sermon videos
+- **Solution**: Used WP File Manager + SSH for large media uploads
+
+## Future Improvements
+- [ ] Implement automated backups to S3
+- [ ] Add CloudFront CDN for media delivery
+- [ ] Set up CloudWatch monitoring/alerts
+
+## Screenshots

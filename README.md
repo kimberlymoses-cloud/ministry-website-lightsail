@@ -19,3 +19,4 @@ User → Route 53/Domain → AWS Lightsail Instance → WordPress (Apache/PHP/My
 
 Migration Process
 [image alt](https://github.com/kimberlymoses-cloud/ministry-website-lightsail/blob/871b92f77c7bfc95f17033ce38c558cac2a3e491/website%20dashboard.png)
+[image alt](https://github.com/kimberlymoses-cloud/ministry-website-lightsail/blob/976b63bb713da93d4b395606387e0eac645b08d6/light%20sail%20dashboard.png)

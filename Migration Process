@@ -26,6 +26,9 @@ uploaded to readme repository
 
    # Connect to Lightsail
    ssh bitnami@54.201.39.99 -i LightsailDefaultKey-us-east-1a.pem
+
+##/backups/
+"Database backed up via All-in-One WP Migration plugin"
    
    # Install SSL
    sudo /opt/bitnami/bncert-tool

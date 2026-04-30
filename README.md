@@ -14,3 +14,5 @@ Data migration from legacy .NET application
 Cost optimization: Free for the first 90 days and then running production site for $7/month
 Architecture
 User → Route 53/Domain → AWS Lightsail Instance → WordPress (Apache/PHP/MySQL)
+
+[image alt](https://github.com/kimberlymoses-cloud/ministry-website-lightsail/blob/fdc29132ec11b2cba5549b585a2079b3b5be3b7c/Ministry%20Website.png)

@@ -23,3 +23,12 @@
 
 ## Screenshots
 uploaded to readme repository
+
+   # Connect to Lightsail
+   ssh bitnami@54.201.39.99 -i LightsailDefaultKey-us-east-1a.pem
+   
+   # Install SSL
+   sudo /opt/bitnami/bncert-tool
+   
+   # WordPress version
+   wp core version 6.9.4
